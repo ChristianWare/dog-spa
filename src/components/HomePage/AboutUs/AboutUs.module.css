@@ -1,0 +1,151 @@
+.container {
+  padding: 10rem 0rem;
+  background-color: var(--floral-white);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.heading {
+  width: 80%;
+}
+
+.copy {
+  width: 80%;
+  font-weight: 500;
+}
+
+.leftBottom {
+  background-color: var(--white);
+  border-radius: 10px;
+  border: 1px solid var(--gray);
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-gap: 3rem;
+  padding: 2rem;
+}
+
+.lbLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+.imgContainerii {
+  position: relative;
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+}
+
+.accent {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 4rem;
+  height: 4rem;
+}
+
+.imgii {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.lbRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+/* .lbRightCopy {
+  font-weight: 500;
+} */
+
+.bold {
+  font-weight: 700;
+}
+
+.right {
+  height: 100%;
+}
+
+.imgContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  clip-path: var(--clip-path-1);
+}
+
+.img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1268px) {
+  .content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1068px) {
+  .content {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .imgContainer {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    grid-gap: 2rem;
+  }
+
+  .left {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heading,
+  .copy {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .leftBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding-top: 3rem;
+  }
+}

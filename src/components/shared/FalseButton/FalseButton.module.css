@@ -11,102 +11,38 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  padding: 1.3rem 2rem;
+  padding: 1rem 2rem;
   font-family: var(--SFUIMedium);
-  font-weight: 600;
-  font-size: 1.5rem;
-  border-radius: 7px;
+  font-weight: 700;
+  font-size: 1.6rem;
+  border-radius: 5px;
   width: 100%;
   transition: all 0.2s ease-in-out;
   white-space: nowrap;
+  text-transform: capitalize;
 }
 
-.orange {
-  background-color: var(--orange);
-  color: var(--white);
+.tan {
+  background-color: var(--bisque);
+  color: var(--purple);
 }
 
-.orange:hover {
-  background-color: var(--lightOrange);
+.tanPill {
+  border-radius: 50px;
+  background-color: var(--bisque);
+  color: var(--purple);
 }
 
-.white {
-  background-color: var(--white);
-  color: var(--black);
+.tanPillOutline {
+  border-radius: 50px;
+  background-color: var(--bisque);
+  color: var(--purple);
+  border: 3px solid var(--thistle);
 }
 
-.white:hover {
-  background-color: var(--gray);
-}
-
-.blue {
-  background-color: var(--blue);
-  color: var(--white);
-}
-
-.blue:hover {
-  background-color: var(--lightBlue);
-}
-
-.noBackgroundWhiteText {
-  background-color: transparent;
-  color: var(--white);
-}
-
-.noBackgroundBlueText {
-  color: var(--white);
-  background-color: var(--blue);
-  padding: 0.5rem 0.8rem;
-  padding-right: 1.4rem;
-}
-
-.noBackgroundBlackText {
-  background-color: transparent;
-  color: var(--black);
-}
-
-.blackOutline {
-  background-color: transparent;
-  color: var(--black);
-  border: 1px solid var(--black);
-}
-
-.arrow {
-  transform: rotate(45deg);
-  font-size: 1.4rem;
-  transition: all 0.2s ease-in-out;
-  position: relative;
-  top: -1px;
-}
-
-.phone {
-  width: 2rem;
-  height: 2rem;
-  position: relative;
-  top: 2px;
-}
-
-.noBackgroundBlackText .arrow {
-  color: var(--black);
-}
-
-.noBackgroundBlueText .arrow {
-  color: var(--white);
-}
-
-.whiteNav {
-  background-color: var(--white);
-  color: var(--black);
-  padding: 0.5rem 1.6rem;
-  /* padding-right: 1.6rem; */
-}
-
-.arrow {
-  transform: rotate(45deg);
-  font-size: 1.4rem;
-  transition: all 0.2s ease-in-out;
-  position: relative;
-  top: -1px;
+.salmon {
+  background-color: var(--salmon);
+  color: var(--purple);
 }
 
 /* 
