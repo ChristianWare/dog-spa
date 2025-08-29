@@ -1,9 +1,10 @@
 .slider {
   width: 100%;
   overflow: hidden;
-
   padding: 1rem 0;
   cursor: pointer;
+  background-color: var(--floral-white);
+  
 }
 
 .track {

@@ -20,6 +20,11 @@
   font-weight: 500;
 }
 
+.bottom {
+  background-color: var(--thistle);
+  padding: 1rem 0rem;
+}
+
 .btnContainer {
   display: flex;
   align-items: center;
