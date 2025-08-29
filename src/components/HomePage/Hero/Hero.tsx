@@ -25,7 +25,11 @@ export default function Hero() {
               <Button href='/' text='See services' btnType='tanPill' arrow />
             </div>
             <div className={styles.scrollTextContainer}>
-              <ScrollHorizontalText text='Certified stylists' text2='Gentle handling' text3='SMS reminders' />
+              <ScrollHorizontalText
+                text='Certified stylists'
+                text2='Gentle handling'
+                text3='SMS reminders'
+              />
             </div>
           </div>
           <div className={styles.bottom}>

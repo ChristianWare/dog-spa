@@ -1,5 +1,6 @@
 .container {
   padding: 10rem 0rem;
+  padding-bottom: 0rem;
   background-color: var(--floral-white);
 }
 
@@ -72,7 +73,7 @@
   bottom: -20px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: var(--bisque);
+  background-color: var(--thistle);
   width: 100vw;
   height: 60%;
   z-index: -1;
@@ -117,6 +118,10 @@
   border-radius: 10px;
   user-select: none;
   font-size: 0;
+}
+
+.valuePropContainer {
+  margin-top: 7rem;
 }
 
 @media screen and (max-width: 1068px) {
