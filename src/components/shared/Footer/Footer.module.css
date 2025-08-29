@@ -45,6 +45,10 @@
   font-size: 1.6rem;
 }
 
+.workingHoursList {
+  list-style: none;
+}
+
 .workingHoursList li {
   color: var(--white);
   text-align: center;
@@ -68,12 +72,20 @@
 }
 
 @media screen and (max-width: 868px) {
+  .container {
+    padding: 3rem;
+  }
+
   .copy {
     width: 80%;
   }
 }
 
 @media screen and (max-width: 568px) {
+  .container {
+    padding: 3rem 2rem;
+  }
+
   .copy {
     width: 100%;
   }
