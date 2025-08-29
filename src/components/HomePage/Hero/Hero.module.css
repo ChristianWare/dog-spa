@@ -46,7 +46,16 @@
 
 .copy {
   text-align: center;
-  width: 40%;
+  width: 50%;
+  /* font-weight: 700; */
+  font-size: 2rem;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
 }
 
 .bottom {
@@ -132,6 +141,10 @@
 }
 
 @media screen and (max-width: 568px) {
+  .squiggly {
+    padding-bottom: 0.5rem;
+  }
+
   .imgContainer {
     height: 200px;
   }
@@ -143,5 +156,16 @@
 
   .video {
     height: 250px;
+  }
+
+  .copy {
+    width: 100%;
+  }
+
+  .btnContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    width: 100%;
   }
 }

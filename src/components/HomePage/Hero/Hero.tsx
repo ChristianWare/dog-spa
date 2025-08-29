@@ -3,6 +3,8 @@ import styles from "./Hero.module.css";
 import Image from "next/image";
 import Img1 from "../../../../public/images/hero.jpg";
 import Img2 from "../../../../public/images/doggyii.jpg";
+import Button from "@/components/shared/Button/Button";
+import ScrollHorizontalText from "@/components/shared/ScrollHorizontalText/ScrollHorizontalText";
 
 export default function Hero() {
   return (
@@ -18,6 +20,13 @@ export default function Hero() {
               Fear-free spa appointments with real-time booking and upfront
               pricing. Reserve with a 30% deposit—no phone tag, no surprises.
             </p>
+            <div className={styles.btnContainer}>
+              <Button href='/' text='Book a groom' btnType='salmon' arrow />
+              <Button href='/' text='See services' btnType='tanPill' arrow />
+            </div>
+            <div className={styles.scrollTextContainer}>
+              <ScrollHorizontalText text='Certified stylists' text2='Gentle handling' text3='SMS reminders' />
+            </div>
           </div>
           <div className={styles.bottom}>
             <div className={styles.bottomContainer}>

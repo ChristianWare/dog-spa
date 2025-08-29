@@ -27,6 +27,24 @@
   color: var(--purple);
 }
 
+.tanPill {
+  border-radius: 50px;
+  background-color: var(--bisque);
+  color: var(--purple);
+}
+
+.tanPillOutline {
+  border-radius: 50px;
+  background-color: var(--bisque);
+  color: var(--purple);
+  border: 3px solid var(--thistle);
+}
+
+.salmon {
+  background-color: var(--salmon);
+  color: var(--purple);
+}
+
 /* 
 @media (hover: hover) and (pointer: fine) {
   .container:hover .arrow {
