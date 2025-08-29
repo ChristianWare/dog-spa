@@ -1,0 +1,12 @@
+.container {
+  padding: 10rem 0rem;
+  background-color: var(--floral-white);
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}

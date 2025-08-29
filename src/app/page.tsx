@@ -5,6 +5,7 @@ import FeaturedServices from "@/components/HomePage/FeaturedServices/FeaturedSer
 import Specialize from "@/components/HomePage/Specialize/Specialize";
 import Memberships from "@/components/HomePage/Memberships/Memberships";
 import Testimonials from "@/components/shared/Testimonials/Testimonials";
+import RecentWorks from "@/components/HomePage/RecentWorks/RecentWorks";
 // import Consultation from "@/components/HomePage/Consultation/Consultation";
 // import FinalCTA from "@/components/shared/FinalCTA/FinalCTA";
 // import Footer from "@/components/shared/Footer/Footer";
@@ -19,6 +20,7 @@ export default function HomePage() {
       <Specialize />
       <Memberships />
       <Testimonials />
+      <RecentWorks />
       {/* <Consultation /> */}
       {/* <FinalCTA /> */}
       {/* <Footer /> */}
