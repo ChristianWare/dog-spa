@@ -4,6 +4,7 @@ import SectionIntro from "@/components/shared/SectionIntro/SectionIntro";
 import Image from "next/image";
 import Img1 from "../../../../public/images/hero.jpg";
 import Accent from "@/components/icons/Accent/Accent";
+import Button from "@/components/shared/Button/Button";
 
 export default function AboutUs() {
   return (
@@ -21,10 +22,13 @@ export default function AboutUs() {
               experience and a genuine love for animals, we ensure that every
               pet receives the attention and affection they deserve.
             </p>
+            <div className={styles.btnContainer}>
+              <Button btnType='salmon' text='More about us' href='/' arrow />
+            </div>
             <div className={styles.leftBottom}>
               <div className={styles.lbLeft}>
                 <div className={styles.imgContainerii}>
-                <Accent className={styles.accent} />
+                  <Accent className={styles.accent} />
                   <Image
                     src={Img1}
                     fill
@@ -43,9 +47,7 @@ export default function AboutUs() {
                   Each member of our staff is committed to creating a safe,
                   comfortable, and enjoyable environment for every pet.
                 </p>
-                <span className={styles.bold}>
-                  Chris Rawlings
-                </span>
+                <span className={styles.bold}>Chris Rawlings</span>
               </div>
             </div>
           </div>

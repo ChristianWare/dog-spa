@@ -1,0 +1,105 @@
+.container {
+  padding: 10rem 0rem;
+  background-color: var(--floral-white);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+}
+
+.imgContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  clip-path: var(--clip-path-1);
+  transform: scaleX(-1);
+}
+
+.img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 5rem;
+  padding-left: 7rem;
+  background-color: var(--purple);
+  clip-path: var(--clip-path-1);
+  order: -1;
+}
+
+.heading {
+  font-size: 2.8rem;
+  color: var(--bisque);
+  width: 80%;
+}
+
+.copy {
+  color: var(--bisque);
+  width: 80%;
+}
+
+.dataMapBox {
+  border-top: 1px solid var(--bisque);
+  padding-top: 3rem;
+  width: 100%;
+}
+
+.dataMapItem {
+  color: var(--bisque);
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1268px) {
+  .content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 1068px) {
+  .content {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+  }
+
+  .imgContainer {
+    margin-left: 0;
+    height: 30rem;
+      transform: scaleY(-1);
+      
+    }
+    
+    .img {
+      border-radius: 10px;
+      transform: scaleY(-1);
+  }
+
+  .right {
+    padding-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading,
+  .copy {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .container {
+    padding-top: 0rem;
+  }
+
+  .right {
+    padding: 3rem;
+  }
+}

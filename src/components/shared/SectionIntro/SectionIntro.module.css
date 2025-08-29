@@ -1,7 +1,4 @@
 .container {
-  border: 1px solid var(--text);
-  padding: 0.8rem 2rem;
-  border-radius: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,16 +37,8 @@
   color: var(--white);
 }
 
-.blue {
-  color: var(--blue);
-}
-
-.yellow {
-  color: var(--yellow);
-}
-
-.yellow {
-  color: var(--black);
+.bisque {
+  color: var(--bisque);
 }
 
 @keyframes spin {

@@ -37,7 +37,7 @@ export default function FeaturedServices() {
           <div className={styles.introInfo}>
             {/* <SectionIntro title='Popular Services' /> */}
             <h2 className={styles.heading}>
-              Special Offers <br /> for your Fur baby
+              Featured services <br /> for your fur baby
             </h2>
           </div>
           <div className={styles.dataContainer}>
@@ -81,7 +81,7 @@ export default function FeaturedServices() {
                     </p>
                   </div>
                   <div className={styles.cbRight}>
-                    <FalseButton text={x.price} btnType='tan' />
+                    <FalseButton text={x.price} btnType='purple' />
                   </div>
                 </div>
               </div>

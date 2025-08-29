@@ -27,6 +27,11 @@
   color: var(--purple);
 }
 
+.purple {
+  background-color: var(--purple);
+  color: var(--bisque);
+}
+
 .tanPill {
   border-radius: 50px;
   background-color: var(--bisque);

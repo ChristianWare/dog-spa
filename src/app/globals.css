@@ -15,9 +15,13 @@
   --gold: #ffc32a;
   --indigo: #3d153d;
   --purple-2: #50114f;
-    --gray: #d3d1ce;
+  --gray: #d3d1ce;
+  --stickyTop: 20vh;
+  --cardGap: 1rem;
+  --cardMinH: clamp(200px, 20vh, 480px);
+  --cardStep: 28vh;
+  --fadeDur: 340ms;
 
-  
   --clip-path-1: polygon(
     calc(100% - 0px) 16px,
     calc(100% - 0px) 16px,
@@ -1420,7 +1424,6 @@
     15.5001px 64px,
     15.5001px 64px
   );
-
 }
 
 * {
@@ -1479,7 +1482,7 @@ h1 {
 }
 
 h2 {
-  letter-spacing: -.5px;
+  letter-spacing: -0.5px;
   font-size: 4.2rem;
 }
 
@@ -1624,5 +1627,3 @@ button {
     line-height: 110%;
   }
 } */
-
-
