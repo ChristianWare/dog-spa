@@ -3,6 +3,7 @@ import { Mulish } from "next/font/google";
 import localFont from "next/font/local";
 
 import "./globals.css";
+import Nav from "@/components/shared/Nav/Nav";
 // import { auth } from "../../auth";
 // import { SessionProvider } from "next-auth/react";
 // import Footer from "@/components/shared/Footer/Footer";
@@ -43,6 +44,7 @@ export default async function RootLayout({
               className: "toastFont",
             }}
           /> */}
+        <Nav />
         {children}
         {/* <FinalCTA /> */}
         {/* <Footer /> */}

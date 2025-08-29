@@ -1,0 +1,55 @@
+.logo {
+  cursor: pointer;
+  font-family: var(--DMSans);
+  z-index: 999;
+  font-weight: 600;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  color: var(--purple);
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.large {
+  font-size: 7rem;
+}
+
+.footerLarge {
+  font-size: inherit;
+}
+
+.tan {
+  color: var(--tan);
+}
+
+.blackii {
+  color: var(--blackii);
+}
+
+.tailOne {
+  color: var(--white);
+  font-size: 4rem;
+  transform: scaleX(-1);
+}
+
+.tailTwo {
+  color: var(--white);
+  font-size: 4rem;
+}
+
+@media screen and (max-width: 1068px) {
+  .logo {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tailOne, .tailTwo {
+    display: none;
+  }
+}

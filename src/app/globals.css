@@ -1,14 +1,20 @@
 :root {
-  --black: #2c2c2c;
-  --blue: #0d47a1;
-  --lightBlue: #5c6bc0;
-  --lightBlueii: #2055a7;
-  --orange: #ff7143;
-  --lightOrange: rgba(255, 113, 67, 0.5);
-  --gray: #edeff1;
-  --white: #ffffff;
-  --text: #5c5959;
-  --lightgray: #d7cfcf;
+  --floral-white: #faf6f2;
+  --purple: #792f6c;
+  --salmon: #ff8d7b;
+  --bisque: #ffe8d0;
+  --white: white;
+  --antique-white: #f0e3d2;
+  --misty-rose: #e0c4c8;
+  --thistle: #ecc3ee;
+  --light-green: #80e6a2;
+  --powder-blue: #97b5ff;
+  --light-goldenrod-yellow: #d9fdc1;
+  --lime-green: #10c94e;
+  --tomato: #ff5237;
+  --gold: #ffc32a;
+  --indigo: #3d153d;
+  --purple-2: #50114f;
 }
 
 * {
@@ -51,7 +57,7 @@ h4,
 h5,
 h6,
 span {
-  color: var(--black);
+  color: var(--purple);
   font-family: var(--DMSans);
   hyphens: auto;
   line-height: 0.95;
@@ -59,9 +65,9 @@ span {
 
 h1 {
   font-size: 5.6rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1;
-  /* letter-spacing: -1px; */
+  letter-spacing: -1px;
   font-family: var(--DMSans);
 }
 
@@ -105,6 +111,7 @@ textarea {
   line-height: 1.3;
   text-transform: none;
   font-weight: 300;
+  color: var(--purple);
 }
 
 input:focus,

@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.btn {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  font-family: var(--SFUIMedium);
+  font-weight: 700;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+
+.tan {
+  background-color: var(--bisque);
+  color: var(--purple);
+}
+
+/* 
+@media (hover: hover) and (pointer: fine) {
+  .container:hover .arrow {
+    transform: rotate(90deg) translateY(-5px);
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .noBackgroundBlueText {
+    border: 1px solid var(--lightBlue);
+  }
+} */

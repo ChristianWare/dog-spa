@@ -1,0 +1,47 @@
+.container {
+  padding: 10rem 0rem;
+  background-color: var(--floral-white);
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.heading {
+  text-align: center;
+}
+
+.spark {
+  color: var(--purple);
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  background-image: url("/svgs/accent1.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 0.75em;
+  padding-top: 0.3em;
+  padding-left: 0.4em;
+  display: inline-block;
+  overflow: visible;
+}
+
+.squiggly {
+  color: var(--purple);
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  background-image: url("/svgs/accent2.svg");
+  background-position: 50% 100%;
+  background-repeat: repeat-x;
+  background-size: 300px;
+}
+
+.copy {
+  text-align: center;
+  width: 40%;
+}
