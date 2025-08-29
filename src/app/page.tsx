@@ -6,9 +6,9 @@ import Specialize from "@/components/HomePage/Specialize/Specialize";
 import Memberships from "@/components/HomePage/Memberships/Memberships";
 import Testimonials from "@/components/shared/Testimonials/Testimonials";
 import RecentWorks from "@/components/HomePage/RecentWorks/RecentWorks";
-
-// import FinalCTA from "@/components/shared/FinalCTA/FinalCTA";
+import FinalCTA from "@/components/shared/FinalCTA/FinalCTA";
 import Footer from "@/components/shared/Footer/Footer";
+import Solutions from "@/components/HomePage/Solutions/Solutions";
 
 export default function HomePage() {
   return (
@@ -17,11 +17,12 @@ export default function HomePage() {
       <ValueProps />
       <AboutUs />
       <FeaturedServices />
+      <FinalCTA />
+      <Solutions />
       <Specialize />
       <Memberships />
       <Testimonials />
       <RecentWorks />
-      {/* <FinalCTA /> */}
       <Footer />
     </main>
   );

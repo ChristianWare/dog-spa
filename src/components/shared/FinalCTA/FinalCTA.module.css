@@ -14,14 +14,14 @@
   height: 100%;
   width: 100%;
   background: linear-gradient(rgba(10, 7, 27, 0.7), rgba(10, 7, 27, 0.7));
-  border-radius: 15px;
-  clip-path: var(--clip-path-1);
+  /* border-radius: 15px; */
+  /* clip-path: var(--clip-path-1); */
 }
 
 .img {
   object-fit: cover;
   border-radius: 15px;
-  clip-path: var(--clip-path-1);
+  /* clip-path: var(--clip-path-1); */
 }
 
 .content {
@@ -43,11 +43,17 @@
 
 .heading {
   color: var(--bisque);
+  background-image: url("/svgs/accent2.svg");
+  background-position: 50% 100%;
+  background-repeat: repeat-x;
+  background-size: 300px;
+  padding-bottom: .8rem
+  ;
 }
 
 .copy {
   color: var(--bisque);
-  width: 60%;
+  width: 90%;
   font-weight: 500;
   font-size: 2rem;
 }
@@ -75,11 +81,15 @@
   }
 
   .copy {
-    width: 70%;
+    width: 80%;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .parent {
+    margin: 1rem;
+  }
+  
   .content {
     padding: 10rem 5rem;
   }
