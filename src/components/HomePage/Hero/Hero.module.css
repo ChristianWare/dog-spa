@@ -51,6 +51,23 @@
 
 .bottom {
   margin-top: 5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.bottom::after {
+  content: "";
+  position: absolute;
+
+  top: auto;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--bisque);
+  width: 100vw;
+  height: 60%;
+  z-index: -1;
+  pointer-events: none;
 }
 
 .bottomContainer {
