@@ -1,8 +1,7 @@
 .header {
   position: relative;
   z-index: 1;
-  margin: 1rem;
-  margin-bottom: 0rem;
+  padding: 1rem;
   background-color: var(--floral-white);
 }
 
@@ -34,7 +33,6 @@
   font-family: var(--mulish);
   font-weight: 700;
 }
-
 
 .icon {
   color: var(--purple);
