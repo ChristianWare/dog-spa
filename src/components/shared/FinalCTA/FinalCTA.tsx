@@ -6,19 +6,21 @@ import Button from "../Button/Button";
 
 export default function FinalCTA() {
   return (
-    <section className={styles.container}>
+    <section className={styles.parent}>
       <LayoutWrapper>
-        <div className={styles.content}>
-          <div className={styles.imgContainer}>
-            <Image src={Img1} alt='Hero Image' fill className={styles.img} />
-          </div>
-          <h2 className={styles.heading}>Ready for a Shed-Free Sofa?</h2>
-          <p className={styles.copy}>
-            Book your appointment today and experience the best in beauty and
-            wellness.
-          </p>
-          <div className={styles.btnContainer}>
-            <Button btnType='salmon' text='Book Now' href='/' arrow />
+        <div className={styles.container}>
+          <div className={styles.imgOverlay} />
+          <Image src={Img1} alt='Hero Image' fill className={styles.img} />
+          <div className={styles.content}>
+            <div className={styles.left}>
+              <h2 className={styles.heading}>Ready for a Shed-Free Sofa?</h2>
+              <p className={styles.copy}>
+                Book your first appointment today and experience the joy of a shed-free home.
+              </p>
+            <div className={styles.btnContainer}>
+              <Button btnType='salmon' text='Book Now' href='/' arrow />
+            </div>
+            </div>
           </div>
         </div>
       </LayoutWrapper>
