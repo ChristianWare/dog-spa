@@ -36,11 +36,14 @@ export default function ValueProps() {
   return (
     <section className={styles.container}>
       <LayoutWrapper>
+        <div className={styles.top}>
+          <h2 className={styles.heading}>Our Value Proposition</h2>
+        </div>
         <div className={styles.content}>
           {data.map((item) => (
             <div key={item.id} className={styles.card}>
-              {item.icon}
-              <h3 className={styles.heading}>{item.heading}</h3>
+              <div className={styles.iconBox}>{item.icon}</div>
+              <h3 className={styles.title}>{item.heading}</h3>
               <p className={styles.copy}>{item.copy}</p>
             </div>
           ))}
