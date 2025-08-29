@@ -7,6 +7,7 @@ import Image from "next/image";
 import Img1 from "../../../../public/images/doggyiii.jpg";
 import LayoutWrapper from "../LayoutWrapper";
 import ScrollHorizontalText from "../ScrollHorizontalText/ScrollHorizontalText";
+import Starii from "@/components/icons/Starii/Starii";
 
 const reviews = [
   {
@@ -63,17 +64,25 @@ const Testimonials = () => {
 
   return (
     <section className={styles.container}>
+      <div className={styles.scrollTextContainer}>
+        <ScrollHorizontalText
+          text='Certified stylists'
+          text2='Gentle handling'
+          text3='SMS reminders'
+        />
+      </div>
       <LayoutWrapper>
         <div className={styles.content}>
-          <div className={styles.scrollTextContainer}>
-            <ScrollHorizontalText
-              text='Certified stylists'
-              text2='Gentle handling'
-              text3='SMS reminders'
-            />
+          <div className={styles.top}>
+            <SectionIntro title='Guest Reviews' />
+            <div className={styles.starContainer}>
+              <Starii className={styles.icon} />
+              <Starii className={styles.icon} />
+              <Starii className={styles.icon} />
+              <Starii className={styles.icon} />
+              <Starii className={styles.icon} />
+            </div>
           </div>
-          <SectionIntro title='Guest Reviews' />
-
           <div className={styles.reviewContainer}>
             <button onClick={prevReview} className={styles.arrowButton}>
               ←

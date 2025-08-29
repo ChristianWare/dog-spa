@@ -17,15 +17,29 @@
   margin-right: auto;
 }
 
-.scrollTextContainer {
-  margin-bottom: 3rem;
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.starContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.icon {
+  color: var(--purple);
 }
 
 .reviewContainer {
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin-top: 4rem;
   width: 100%;
   height: 100%;
   padding: 3rem;
