@@ -4,7 +4,7 @@ import Image from "next/image";
 import Img1 from "../../../../public/images/doggyiii.jpg";
 import SectionIntro from "@/components/shared/SectionIntro/SectionIntro";
 import Button from "@/components/shared/Button/Button";
-import AboutPage from "@/app/about/page";
+import PostAboutHero from "../PostAboutHero/PostAboutHero";
 
 export default function AboutPageIntro() {
   return (
@@ -52,7 +52,7 @@ export default function AboutPageIntro() {
             </div>
           </div>
         </div>
-        <AboutPage />
+      <PostAboutHero />
       </LayoutWrapper>
     </section>
   );

@@ -130,7 +130,6 @@ export default function Specialize() {
                     }`}
                     fill
                     priority={idx === 0}
-                    quality={100}
                     sizes='(max-width: 768px) 100vw, 40vw'
                   />
                 ))}

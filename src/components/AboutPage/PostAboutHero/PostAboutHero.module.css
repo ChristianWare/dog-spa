@@ -1,7 +1,9 @@
 .mapDataContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
+  margin-top: 10rem;
+  width: 100%;
 }
 
 .card {
@@ -9,7 +11,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 3rem;
   padding: 2rem;
+  padding-top: 4rem;
   background-color: var(--bisque);
   border-radius: 10px;
 }
@@ -19,14 +23,27 @@
   height: 6rem;
   background-color: var(--white);
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon {
   color: var(--purple);
 }
 
-@media screen and (max-width: 568px) {
+.mapDataTitle {
+  font-size: 2rem;
+}
+
+.mapDataTitle,
+.mapDataDesc {
+  text-align: center;
+}
+
+@media screen and (max-width: 1068px) {
   .mapDataContainer {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3rem;
   }
 }
