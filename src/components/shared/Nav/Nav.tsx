@@ -7,6 +7,7 @@ import Button from "../Button/Button";
 // import { MouseEvent, useEffect, useState } from "react";
 import { useEffect, useState } from "react";
 import Logo from "../Logo/Logo";
+import Search from "@/components/icons/Search/Search";
 // import Phone from "@/components/icons/Phone/Phone";
 // import { useSession } from "next-auth/react";
 // import { useRouter } from "next/navigation";
@@ -91,9 +92,11 @@ export default function Nav({ color = "", hamburgerColor = "" }: Props) {
           >
             My Account
           </Link>
+
           <div className={styles.btnContainer}>
             <Button href='/booking' text='Book now' btnType='tan' arrow />
           </div>
+          <Search className={styles.icon} />
         </div>
         <div className={styles.hamburgerContainer}>
           <span

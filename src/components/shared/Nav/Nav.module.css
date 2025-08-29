@@ -35,6 +35,11 @@
   font-weight: 700;
 }
 
+
+.icon {
+  color: var(--purple);
+}
+
 .black {
   color: var(--black);
 }
@@ -91,7 +96,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 1068px) {
+@media screen and (max-width: 968px) {
   .navItems {
     position: fixed;
     right: -100%;

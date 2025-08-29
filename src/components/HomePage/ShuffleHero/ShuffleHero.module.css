@@ -1,0 +1,42 @@
+.section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.square {
+  position: relative; /* needed for <Image fill> */
+  border-radius: 15px; /* your desired radius */
+  overflow: hidden; /* <-- clips the image to the radius */
+  border: 1px solid var(--gray);
+  background-color: var(--tan);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.img {
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+@media screen and (max-width: 568px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
