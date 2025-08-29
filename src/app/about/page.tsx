@@ -1,5 +1,9 @@
+import AboutPageIntro from "@/components/AboutPage/AboutPageInro/AboutPageInro";
+
 export default function AboutPage() {
   return (
-    <div>AboutPage</div>
+    <main>
+      <AboutPageIntro />
+    </main>
   )
 }
