@@ -1605,6 +1605,10 @@ button {
     line-height: 1.1;
   } */
 
+h2 {
+  font-size: 3rem;
+}
+
   input,
   textarea,
   select,
