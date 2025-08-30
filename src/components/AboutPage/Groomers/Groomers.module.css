@@ -3,6 +3,12 @@
   background-color: var(--floral-white);
 }
 
+.content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .introInfo {
   display: flex;
   flex-direction: column;
@@ -52,7 +58,7 @@
   left: -1px;
   z-index: 2;
   pointer-events: auto;
-  width: 40%;
+  width: 50%;
 }
 
 .bottomCorner {
@@ -155,6 +161,10 @@
 }
 
 @media screen and (max-width: 1368px) {
+  .content {
+    width: 100%;
+  }
+
   .introInfo {
     align-items: center;
     text-align: center;
@@ -193,6 +203,10 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .bottomCornerContainer {
+    width: 40%;
   }
 }
 

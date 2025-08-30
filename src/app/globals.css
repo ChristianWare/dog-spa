@@ -1476,7 +1476,7 @@ span {
 h1 {
   font-size: 5.6rem;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.2;
   letter-spacing: -1px;
   font-family: var(--DMSans);
 }
@@ -1584,7 +1584,7 @@ button {
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 5.4rem;
+    font-size: 5rem;
   }
 
   input,
@@ -1600,10 +1600,10 @@ button {
     font-size: 50%;
   }
 
-  /* h1 {
-    font-size: 13vw;
+  h1 {
+    font-size: 8.5vw;
     line-height: 1.1;
-  } */
+  }
 
 h2 {
   font-size: 3rem;
