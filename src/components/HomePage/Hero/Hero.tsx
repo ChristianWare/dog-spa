@@ -21,8 +21,8 @@ export default function Hero() {
               pricing. Reserve with a 30% deposit—no phone tag, no surprises.
             </p>
             <div className={styles.btnContainer}>
-              <Button href='/' text='Book a groom' btnType='salmon' arrow />
-              <Button href='/' text='See services' btnType='tanPill' arrow />
+              <Button href='/' text='Book a groom' btnType='salmon' />
+              <Button href='/' text='See services' btnType='tanPill' />
             </div>
             <div className={styles.scrollTextContainer}>
               <ScrollHorizontalText
