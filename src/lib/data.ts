@@ -23,7 +23,7 @@ export const services = [
     id: 1,
     title: "Bath  Blowout",
     slug: slugify("Bath  Blowout"),
-    price: "From $50",
+    price: "$50",
     copy: "A refreshing bath and blowout for your pet.",
     description:
       "Our Bath Blowout service provides your pet with a thorough cleansing using gentle, pet-safe shampoos. After the bath, we use professional dryers to give your pet a soft, fluffy finish. This service helps remove dirt, loose hair, and odors, leaving your pet looking and feeling fresh. It's ideal for pets who need a quick refresh between full grooming appointments.",
@@ -64,7 +64,7 @@ export const services = [
     id: 2,
     title: "Full Grooming",
     slug: slugify("Full Grooming"),
-    price: "From $75",
+    price: "$75",
     copy: "Complete grooming service including bath, cut, and styling.",
     description:
       "Our Full Grooming package covers every aspect of your pet’s hygiene and appearance. It includes a bath, haircut, nail trim, ear cleaning, and styling tailored to your pet’s breed and preferences. Our experienced groomers ensure your pet is comfortable throughout the process. This service is perfect for maintaining your pet’s health and keeping them looking their best.",
@@ -107,7 +107,7 @@ export const services = [
     id: 3,
     title: "Spa Add-Ons",
     slug: slugify("Spa Add-Ons"),
-    price: "From $125",
+    price: "$125",
     copy: "Pamper your pet with our luxurious spa add-ons.",
     description:
       "Enhance your pet’s grooming experience with our Spa Add-Ons. Choose from a variety of treatments such as deep conditioning, aromatherapy, and paw balm application. These extras are designed to nourish your pet’s skin and coat while providing relaxation. Spa Add-Ons are perfect for pets who deserve a little extra pampering.",
@@ -147,7 +147,7 @@ export const services = [
     id: 4,
     title: "Nail Trimming",
     slug: slugify("Nail Trimming"),
-    price: "From $20",
+    price: "$20",
     copy: "Keep your pet's nails trimmed and healthy.",
     description:
       "Our Nail Trimming service ensures your pet’s nails are kept at a safe and comfortable length. Regular trims prevent painful splitting and reduce the risk of injury. We use specialized tools and gentle handling to minimize stress. This service is essential for your pet’s overall health and mobility.",
@@ -189,7 +189,7 @@ export const services = [
     id: 5,
     title: "Ear Cleaning",
     slug: slugify("Ear Cleaning"),
-    price: "From $15",
+    price: "$15",
     copy: "Keep your pet's ears clean and free of debris.",
     description:
       "Our Ear Cleaning service removes wax, dirt, and debris from your pet’s ears to prevent infections and discomfort. We use gentle, pet-safe solutions and techniques to ensure a thorough clean. Regular ear care is important for pets prone to ear issues. This service helps maintain your pet’s ear health and comfort.",
@@ -230,7 +230,7 @@ export const services = [
     id: 6,
     title: "Teeth Brushing",
     slug: slugify("Teeth Brushing"),
-    price: "From $30",
+    price: "$30",
     copy: "Maintain your pet's dental hygiene with our teeth brushing service.",
     description:
       "Our Teeth Brushing service helps maintain your pet’s oral health by removing plaque and freshening breath. We use pet-safe toothpaste and brushes designed for comfort and effectiveness. Regular dental care can prevent gum disease and other health issues. This service is a simple way to keep your pet’s smile bright and healthy.",
@@ -269,7 +269,7 @@ export const services = [
     id: 7,
     title: "Flea Treatment",
     slug: slugify("Flea Treatment"),
-    price: "From $40",
+    price: "$40",
     copy: "Effective flea treatment to keep your pet comfortable.",
     description:
       "Our Flea Treatment service targets and eliminates fleas from your pet’s coat using safe, effective products. We also provide advice on preventing future infestations. This service helps relieve itching and discomfort, ensuring your pet is happy and healthy. Regular flea control is essential for pets who spend time outdoors.",
@@ -308,7 +308,7 @@ export const services = [
     id: 8,
     title: "De-shedding",
     slug: slugify("De-shedding"),
-    price: "From $60",
+    price: "$60",
     copy: "Reduce shedding with our specialized de-shedding service.",
     description:
       "Our De-shedding service uses specialized tools and techniques to remove loose hair from your pet’s undercoat. This reduces shedding around your home and keeps your pet’s coat healthy. Regular de-shedding can also help prevent matting and skin issues. It’s ideal for breeds with thick or double coats.",
@@ -348,7 +348,7 @@ export const services = [
     id: 9,
     title: "Specialty Cuts",
     slug: slugify("Specialty Cuts"),
-    price: "From $80",
+    price: "$80",
     copy: "Custom grooming cuts tailored to your pet's needs.",
     description:
       "Our Specialty Cuts service offers custom grooming styles for your pet, from breed-specific trims to creative designs. Our groomers consult with you to achieve the look you want while ensuring your pet’s comfort. Specialty cuts can help manage coat length and highlight your pet’s personality. This service is perfect for pets who need a unique or functional style.",
@@ -387,7 +387,7 @@ export const services = [
     id: 10,
     title: "Pet Massage",
     slug: slugify("Pet Massage"),
-    price: "From $70",
+    price: "$70",
     copy: "Relax your pet with a soothing massage.",
     description:
       "Our Pet Massage service helps your pet relax and unwind, reducing stress and muscle tension. Gentle techniques are used to improve circulation and flexibility. Massage can be especially beneficial for older pets or those recovering from injury. Give your pet the gift of relaxation and improved well-being.",
@@ -425,7 +425,7 @@ export const services = [
     id: 11,
     title: "Hydrotherapy",
     slug: slugify("Hydrotherapy"),
-    price: "From $90",
+    price: "$90",
     copy: "Therapeutic water treatment for your pet's joints and muscles.",
     description:
       "Our Hydrotherapy service uses water-based exercises to support your pet’s joint and muscle health. It’s ideal for pets recovering from surgery, injury, or those with arthritis. Hydrotherapy is low-impact and helps improve mobility, strength, and overall well-being. Our trained staff ensure your pet’s safety and comfort throughout the session.",
@@ -463,7 +463,7 @@ export const services = [
     id: 12,
     title: "Senior Pet Care",
     slug: slugify("Senior Pet Care"),
-    price: "From $100",
+    price: "$100",
     copy: "Specialized care for older pets to ensure their comfort and well-being.",
     description:
       "Our Senior Pet Care service is tailored to the unique needs of aging pets. We provide gentle grooming, health checks, and comfort-focused treatments to support their well-being. Our staff are trained to handle senior pets with extra care and patience. This service helps older pets stay comfortable, clean, and happy in their golden years.",

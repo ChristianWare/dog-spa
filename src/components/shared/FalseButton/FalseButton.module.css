@@ -45,6 +45,13 @@
   border: 3px solid var(--thistle);
 }
 
+.purpleOutlinePill {
+  border-radius: 50px;
+  background-color: transparent;
+  color: var(--purple);
+  border: 1px solid var(--purple);
+}
+
 .salmon {
   background-color: var(--salmon);
   color: var(--purple);

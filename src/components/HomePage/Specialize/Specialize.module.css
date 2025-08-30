@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  padding: 10rem 0rem;
+  /* padding: 10rem 0rem; */
   background-color: var(--floral-white);
 }
 
