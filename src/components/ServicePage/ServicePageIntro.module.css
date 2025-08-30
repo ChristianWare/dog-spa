@@ -17,6 +17,36 @@
   text-align: center;
 }
 
+.spark {
+  text-align: center;
+  color: var(--purple);
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  background-image: url("/svgs/accent1.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 0.75em;
+  padding-top: 0.2em;
+  padding-left: 0.5em;
+  display: inline-block;
+  overflow: visible;
+}
+
+.squiggly {
+  color: var(--purple);
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  background-image: url("/svgs/accent2.svg");
+  background-position: 50% 100%;
+  background-repeat: repeat-x;
+  background-size: 300px;
+  /* padding-left: 2rem; */
+  /* padding-bottom: .4rem; */
+}
+
+
 .copy {
   width: 40%;
   text-align: center;

@@ -13,7 +13,9 @@ export default function ServicePageIntro() {
           <div className={styles.top}>
             <SectionIntro title='Our services' />
             <h1 className={styles.heading}>
-              Professional dog grooming <br /> for happy, healthy pets
+              <span className={styles.spark}>Professional</span> dog grooming{" "}
+              <br />{" "}
+              <span className={styles.squiggly}> for happy, healthy pets</span>
             </h1>
             <p className={styles.copy}>
               What began as an idea for a consultancy helping Europe meet its
