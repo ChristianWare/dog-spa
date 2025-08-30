@@ -1,5 +1,5 @@
 import Hero from "@/components/HomePage/Hero/Hero";
-import ValueProps from "@/components/HomePage/ValueProps/ValueProps";
+// import ValueProps from "@/components/HomePage/ValueProps/ValueProps";
 import AboutUs from "@/components/HomePage/AboutUs/AboutUs";
 import FeaturedServices from "@/components/HomePage/FeaturedServices/FeaturedServices";
 import Specialize from "@/components/HomePage/Specialize/Specialize";
@@ -14,7 +14,7 @@ export default function HomePage() {
   return (
     <main>
       <Hero />
-      <ValueProps />
+      {/* <ValueProps /> */}
       <AboutUs />
       <FeaturedServices />
       <FinalCTA />

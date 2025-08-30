@@ -1,4 +1,12 @@
-.imgCluster {
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.imageCluster {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,9 +21,21 @@
   margin-left: -20px;
 }
 
+.starContainer {
+  background-color: var(--lime-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid var(--white);
+  margin-left: -20px;
+}
+
 @media screen and (max-width: 5668px) {
-    .image {
-        width: 50px;
-        height: 50px;
-    }
+  .image {
+    width: 50px;
+    height: 50px;
+  }
 }
