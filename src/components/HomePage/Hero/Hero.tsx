@@ -5,6 +5,7 @@ import Img1 from "../../../../public/images/hero.jpg";
 import Img2 from "../../../../public/images/doggyii.jpg";
 import Button from "@/components/shared/Button/Button";
 import ScrollHorizontalText from "@/components/shared/ScrollHorizontalText/ScrollHorizontalText";
+import ImageCluster from "@/components/shared/ImageCluster/ImageCluster";
 
 export default function Hero() {
   return (
@@ -12,6 +13,7 @@ export default function Hero() {
       <LayoutWrapper>
         <div className={styles.content}>
           <div className={styles.top}>
+            <ImageCluster />
             <h1 className={styles.heading}>
               <span className={styles.spark}>Good</span> dogs get
               <span className={styles.squiggly}>great grooms.</span>
