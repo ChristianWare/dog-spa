@@ -1,0 +1,28 @@
+.container {
+  padding: 10rem 0rem;
+  background-color: var(--floral-white);
+}
+
+.introInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  padding: 3rem 0rem;
+  margin-bottom: 3rem;
+}
+
+.heading {
+  text-align: center;
+}
+
+.dataContainer {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 2rem;
+  border: 1px solid var(--blue);
+  padding: 2rem;
+  border-radius: 15px;
+}
